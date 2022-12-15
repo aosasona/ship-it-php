@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.*)
+RewriteCond %{REQUEST_URI} ^[^.]+$
+RewriteRule ^(.*)$ /index.php [L]

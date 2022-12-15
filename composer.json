@@ -1,0 +1,11 @@
+{
+    "name": "trulyao/ship-it",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ayodeji O",
+            "email": "97124713+aosasona@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
