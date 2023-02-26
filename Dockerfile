@@ -2,7 +2,7 @@ FROM php:8.0-apache
 
 USER root
 
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+COPY --from=composer /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/html
 
